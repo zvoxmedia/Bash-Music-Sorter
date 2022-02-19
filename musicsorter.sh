@@ -7,7 +7,7 @@
 # As sper the requirment check the beginning of the word.
 
 #path of a Directory
-path=/Music
+path=/MusicDuplicates
 
 #check duplicate word of the beginning of the filename
 dup=$(ls -1 $path | awk '{print $1}' | uniq -d)
